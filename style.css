@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+.bg {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)),
+  url(images/jones2.jpg)
+      ;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 10px;
+  color: white;
+  text-shadow: 2px 2px tomato;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  background-color: pink;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .8);
+  font-weight: bold;
+  color: tomato;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: pink;
+}
